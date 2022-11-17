@@ -6,7 +6,7 @@ int main()
   {
     for(x=1;x<=y;x++)
     {
-      printf("*\t");
+      printf("%d\t",x);
     }
     printf("\n");
   }

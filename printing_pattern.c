@@ -1,14 +1,14 @@
 #include<stdio.h>
-int main()
-{
+int main(){
   int x,y;
-  for(y=5;y>=1;y--)
+  for(y=1;y<=5;y++)
   {
     for(x=1;x<=y;x++)
     {
-      printf("*\t");
+      printf("%d\t",y);
     }
     printf("\n");
   }
+
   return 0;
 }
